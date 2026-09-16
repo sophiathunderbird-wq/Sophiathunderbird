@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sophiathunderbirdcreations</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Georgia, serif;
+      background: #f4eee4;
+      color: #3b281d;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #3b281d;
+      color: #fff;
+      text-align: center;
+      padding: 55px 20px;
+      border-bottom: 6px solid #c49a5a;
+    }
+
+    header h1 {
+      font-size: 38px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      color: #e8d5ad;
+    }
+
+    nav {
+      background: #5a3d2b;
+      text-align: center;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 12px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #d9b66f;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 70px 20px;
+      background:
+        linear-gradient(rgba(45,31,22,.72), rgba(45,31,22,.72)),
+        url("https://images.unsplash.com/photo-1511497584788-876760111969?auto=format&fit=crop&w=1600&q=80");
+      background-size: cover;
+      background-position: center;
+      color: white;
+    }
+
+    .hero h2 {
+      font-size: 42px;
+      margin-bottom: 15px;
+    }
+
+    .hero p {
+      max-width: 700px;
+      margin: auto;
+      font-size: 19px;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 25px;
+      padding: 13px 25px;
+      background: #c49a5a;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 55px 20px;
+      max-width: 1100px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      margin-bottom: 30px;
+      font-size: 30px;
+    }
+
+    .about {
+      text-align: center;
+      max-width: 800px;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 22px;
+    }
+
+    .product {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,.12);
+      text-align: center;
+      padding-bottom: 20px;
+    }
+
+    .product .photo {
+      height: 180px;
+      background: #d8c4a3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+    }
+
+    .product h3 {
+      margin-top: 18px;
+      font-size: 21px;
+    }
+
+    .product p {
+      padding: 8px 15px;
+    }
+
+    .contact {
+      background: #3b281d;
+      color: white;
+      max-width: none;
+      text-align: center;
+    }
+
+    .contact h2 {
+      color: #e8d5ad;
+    }
+
+    footer {
+      background: #241811;
+      color: #ddd;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 29px;
+      }
+
+      .hero h2 {
+        font-size: 31px;
+      }
+
+      nav a {
+        margin: 0 5px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>🪶 Sophiathunderbirdcreations</h1>
+    <p>Handmade Indigenous-Inspired Creations & Materials</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#shop">Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero" id="home">
+    <h2>Welcome to Sophiathunderbirdcreations</h2>
+    <p>
+      Handmade moccasins, beadwork, regalia materials, apparel and
+      unique creations made with care.
+    </p>
+
+    <a class="button" href="#shop">View Our Shop</a>
+  </div>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <p>
+      Welcome to Sophiathunderbirdcreations. We offer handmade creations
+      and materials inspired by Indigenous artistry, including moccasins,
+      beadwork, regalia materials, jackets, hoodies and more.
+    </p>
+  </section>
+
+  <section id="shop">
+    <h2>Our Products</h2>
+
+    <div class="products">
+
+      <div class="product">
+        <div class="photo">👞</div>
+        <h3>Moccasins</h3>
+        <p>Handmade moccasins and custom designs.</p>
+        <a class="button" href="#contact">Ask About Price</a>
+      </div>
+
+      <div class="product">
+        <div class="photo">🪡</div>
+        <h3>Beadwork</h3>
+        <p>Beautiful handmade beaded creations.</p>
+        <a class="button" href="#contact">Ask About Price</a>
+      </div>
+
+      <div class="product">
+        <div class="photo">🪶</div>
+        <h3>Regalia Materials</h3>
+        <p>Materials and supplies for your projects.</p>
+        <a class="button" href="#contact">Ask About Price</a>
+      </div>
+
+      <div class="product">
+        <div class="photo">🧥</div>
+        <h3>Jackets & Hoodies</h3>
+        <p>Unique Indigenous-inspired apparel.</p>
+        <a class="button" href="#contact">Ask About Price</a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact & Orders</h2>
+
+    <p>
+      Interested in an item or custom order?
+      Send us a message to ask about availability, sizes and prices.
+    </p>
+
+    <!-- Replace the number below with your WhatsApp number -->
+    <a class="button"
+       href="https://wa.me/1234567890"
+       target="_blank">
+       💬 Message Us on WhatsApp
+    </a>
+  </section>
+
+  <footer>
+    © 2026 Sophiathunderbirdcreations. All rights reserved.
+  </footer>
+
+</body>
+</html>
